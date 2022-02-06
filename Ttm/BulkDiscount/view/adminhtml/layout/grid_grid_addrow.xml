@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ttm Discount Manager Map Layout
+ * @category  Ttm
+ * @package   Ttm_BulkDiscount
+ * @author    Ttm
+ * @copyright Copyright (c) 2021-2022 The Tech Makers (https://www.thetechmakers.com)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+           <block class="Ttm\BulkDiscount\Block\Adminhtml\Grid\AddRow" name="add_row" />
+        </referenceContainer>
+    </body>
+</page>

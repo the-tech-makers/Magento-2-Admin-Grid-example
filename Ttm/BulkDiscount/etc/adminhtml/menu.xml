@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/** BulkDiscount menu xml
+ * @category  Ttm
+ * @package   Ttm_BulkDiscount
+ * @author    Ttm
+ * @copyright Copyright (c) 2021-2022 The Tech Makers (https://www.thetechmakers.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ttm_BulkDiscount::add_row" title="Discount Manager" module="Ttm_BulkDiscount" sortOrder="50" parent="Magento_Catalog::inventory" action="grid/grid" resource="Ttm_BulkDiscount::add_row"/>       
+    </menu>
+</config>

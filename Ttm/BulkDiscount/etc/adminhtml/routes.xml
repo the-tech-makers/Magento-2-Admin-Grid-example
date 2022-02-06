@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/** BulkDiscount adminhtml routes xml
+ * @category  Ttm
+ * @package   Ttm_BulkDiscount
+ * @author    Ttm
+ * @copyright Copyright (c) 2021-2022 The Tech Makers (https://www.thetechmakers.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="grid" frontName="grid">
+            <module name="Ttm_BulkDiscount" />
+        </route>
+    </router>
+</config>
